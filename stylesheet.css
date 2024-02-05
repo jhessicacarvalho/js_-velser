@@ -1,0 +1,15 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 kolonner med lige bredde */
+  gap: 10px; /* Afstand mellem gitterceller */
+}
+
+.grid-item {
+  padding: 10px;
+  text-align: center;
+}
+
+.grid-item img {
+  max-width: 100%; /* Sørg for, at billederne ikke overstiger bredden af deres container */
+  height: auto; /* Bevar billedets proportioner */
+}
